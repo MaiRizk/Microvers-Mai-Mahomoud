@@ -1,18 +1,20 @@
+@media only screen and (max-width: 768px) {
+    h1 {
+        border: 2px solid rgb(107, 101, 101);
+        background-color: blue;
+      }
+}    
+
 header{
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 #header-img{
     width: 100px;
     height: 100px;
 }
-
-@media only screen and (max-width: 600px) {
-    h1 {
-      border: 2px solid rgb(107, 101, 101);
-    }
-  }
 
   ul {
     list-style-type: none;
@@ -28,7 +30,26 @@ header{
       height: 150px;
   }
 
-  .Brands{
+  #Brands{
       display: flex;
       justify-content: space-around;
   }
+
+  h1 {
+      border: 5px solid brown;
+  }
+
+  @media (hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+  }
+  @media (max-width: 600px)
+header {
+    flex-wrap: wrap;
+}
+
+#CoffeeMachines {
+  display: flex;
+      justify-content: space-around;
+}
